@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime-movio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#151515] h-screen px-10 py-10">
+    <nav class=" mt-6 border-1  mb-5 border-yellow-500 px-2 py-4 text-white flex justify-center items-center">
+        <ul class="flex flex-row justify-center items-center gap-12">
+            <li class="hover:text-yellow-500 font-semibold text-md m-2"><a href="#">Home</a></li>
+            <li class="hover:text-yellow-500 font-semibold text-md m-2"><a href="#">Movies</a></li>
+            <li class="hover:text-yellow-500 font-semibold text-md m-2"><a href="#">Most Pouplar</a></li>
+            <li class="hover:text-yellow-500 font-semibold text-md m-2"><a href="#">TV Series</a></li>
+            <li class="hover:text-yellow-500 font-semibold text-md m-2"><a href="#">Top Airing</a></li>
+
+
+
+
+
+        </ul>
+
+    </nav>
+
+     <section class="flex flex-col justify-center items-center px-4 py-4">
+        <div class="h-[32rem] w-[72rem] rounded-md bg-zinc-800 border-2 border-yellow-500 flex flex-row justify-between items-center py-5">
+
+            <div class=" flex flex-col justify-start items-start gap-y-4 w-[50%] px-4 py-4">
+                <div class="flex flex-col justify-start items-start gap-y-4">
+                <h1 class="text-3xl font-extrebold text-zinc-300">
+                    Wellcome to <span class="text-yellow-500">ANIMEMOVIO</span>
+                </h1>
+                <p class="text-lg text-zinc-500">
+                    Discover and watch your favorite anime movies and TV series on our platform. Enjoy an unparalleled viewing experience with high-quality streaming, where you can immerse yourself in the captivating world of anime. Say goodbye to interruptions with our ad-free service, ensuring you can fully enjoy every episode and movie without any distractions.
+
+                </p>
+            </div>
+            <div class="flex flex-row justify-center items-center gap-5">
+                <button class="flex gap-2 items-center justify-center px-4 py-3 rounded-md bg-yellow-500 hover:bg-yellow-600 text-white font-bold">
+                    <i class="fa-solid fa-circle-play"></i>
+                    Watch Now
+                </button>
+
+                <button class="px-4 py-3 rounded-md bg-zinc-700 border-white border-1 text-white">
+                    Explore More
+                    <span class="text-lg">&rarr;</span>
+                </button>
+
+            </div>
+
+            </div>
+
+            <div class="w-[49%] flex flex-col justify-center items-center ">
+                <div class="h-[29rem] w-[29rem] rounded-full  bg-yellow-400 border-2 border-2 border-yellow-500 overflow-hidden">
+                    <img src="./goku.png" height="500" width="500" class="object-contain mt-3"/>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[60rem] flex flex-row justify-center items-center gap-4 mt-5">
+            <input
+            type="text"
+            class="w-[50%] px-4 py-3 rounded-md bg-zinc-700 border-1 border-yellow-500 text-white"
+            placeholder="Search for your favorite anime"
+
+            />
+
+            <button class="px-4 py-3 rounded-md bg-yellow-500 hover:bg-yellow-600 text-white font-blod"
+            >
+            Search
+            </button>
+                
+            
+        </div>
+     </section>
+
+     <section class="flex flex-col w-full justify-start items-center gap-y-4 mt-10 mb-10">
+        <h1 class="text-6xl font-extrebold text-white">
+
+            Top Anime Movies
+            </h1>
+            <div class="flex flex flex-col justify-center items-center">
+                <img
+                src="./all2-removebg-preview.png"
+                alt="empty-section"
+                class="h-[50-rem] w-[320rem] object-contain"
+                />
+
+                <p class="font-extrebold text-1xl text-zinc-600 gap-y-4 mt-10 mb-10 h-screen">
+                    Welcome to AnimeMovio, your ultimate destination for popular anime series and movies. Enjoy a seamless viewing experience with our ad-free platform, ensuring you can immerse yourself in the captivating world of anime without any interruptions. Our extensive library features a wide range of genres, from action-packed adventures to heartwarming romances, catering to all anime enthusiasts. Whether you're a seasoned anime fan or just starting your journey, AnimeMovio offers something for everyone. Discover new favorites and relive classic moments with high-quality streaming. Join us today and experience the best in online anime entertainment, only on AnimeMovio
+
+                </p>
+
+            </div>
+
+        
+
+     </section>
+      
+    <script src="moviesproject.js">
+
+    </script>
+</body>
+</html>
