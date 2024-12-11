@@ -1,4 +1,4 @@
-Anime Movie Search Website
+![image](https://github.com/user-attachments/assets/daaf9766-7d65-4ca3-bec0-ccd540f5b0ff)Anime Movie Search Website
 
 This repository contains the frontend implementation of an Anime Movie Search Website, developed using HTML and CSS. The project aims to provide users with a simple yet elegant interface to search and browse for their favorite anime movies. This is an early version of the project, focusing on design and layout, with future plans to incorporate more functionality.
 
@@ -32,7 +32,7 @@ To view the project locally, follow these steps:
 
 1. Clone this repository:
 
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/sumitkourav2
 
 
 2. Navigate to the project directory:
@@ -44,9 +44,6 @@ cd yourrepository
 
 
 
-Screenshots
-
-(Include a screenshot here to show off the design of your website)
 
 Roadmap & Future Enhancements
 
